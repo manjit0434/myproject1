@@ -1,0 +1,9 @@
+#mytable,th,td,tr{
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: red;
+    background-color: lightgray;
+    padding: 2px;
+    margin: 2px;
+}
+th{background-color: fuchsia;color: black;}

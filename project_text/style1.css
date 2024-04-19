@@ -1,0 +1,7 @@
+#mytable,th,td{
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: blueviolet;
+    padding: 5px;
+    margin: 3px;
+}

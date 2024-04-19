@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <table id="mytable">
+
+        <thead id="hd">
+            <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Course</th>
+            </tr>
+        </thead>
+        <tbody id="bd">
+            <tr>
+                <td>100</td>
+                <td>Manjt</td>
+                <td>web developer</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Sona</td>
+                <td>web application</td>
+            </tr>
+
+        </tbody>
+        <tf id="tf">
+            <tr>
+                <td>id</td>
+                <td>Puja</td>
+                <td>java developer</td>
+            </tr>
+        </tf>
+    </table>
+    <script>
+        var bt=document.getElementById("bd")
+        var ro=bt.insertRow(1).innerHTML="<tr><td>103</td><td>Kundan</td><td>python developer</td></tr>"
+        var crt=bt.createRow(-1)
+        console.log(ro[0])
+    </script>
+</body>
+</html>
